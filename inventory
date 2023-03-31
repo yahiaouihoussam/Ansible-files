@@ -1,7 +1,7 @@
 [EC_2]
-machine_1 ansible_host=13.49.127.82 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/TP_ansible/Ansible/Houssam_VM.pem
-machine_2 ansible_host=13.51.250.231 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/TP_ansible/Ansible/Houssam_VM.pem
-machine_3 ansible_host=13.50.250.153 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/TP_ansible/Ansible/Houssam_VM.pem
+machine_1 ansible_host=13.50.238.244 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/TP_ansible/Ansible/Houssam_VM.pem
+machine_2 ansible_host=13.53.44.93 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/TP_ansible/Ansible/Houssam_VM.pem
+machine_3 ansible_host=13.50.231.199 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ubuntu/TP_ansible/Ansible/Houssam_VM.pem
 
 [EC_2:vars]
     virtual_host_directory= "/var/www/example.com"
